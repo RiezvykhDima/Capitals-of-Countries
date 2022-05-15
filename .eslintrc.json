@@ -1,0 +1,12 @@
+{
+    "env": {
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "max-len": ["error", 100, 2, { "ignoreUrls": true }]
+    }
+}

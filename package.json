@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "8.15.0",
+    "express": "4.18.1"
+  },
+  "devDependencies": {
+    "company-commit": "^1.1.1"
+  },
+  "scripts": {
+    "build": "nodemon ./src/server/index.js",
+    "commitizen": "./node_modules/.bin/cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
